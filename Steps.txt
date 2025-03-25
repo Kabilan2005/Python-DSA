@@ -1,0 +1,9 @@
+1. Install github-cli
+	pacman -S github-cli
+2. Login to your acc - authentication
+	gh auth login
+	use github.com and browser over HTTP
+4. Initialise curr dir as git 
+	git init for local repo
+3. Create a repo
+	gh repo create <name> --public or private then --source=dir and --remote=origin<name>	
