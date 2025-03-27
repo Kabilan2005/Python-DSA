@@ -1,0 +1,35 @@
+1. Install github-cli
+	pacman -S github-cli
+2. Login to your acc - authentication
+	gh auth login
+	use github.com and browser over HTTP
+4. Initialise curr dir as git 
+	git init for local repo
+3. Create a repo
+	gh repo create <name> --public or private then --source=dir and --remote=origin<name>	
+4. Create Folders and Files
+5. Staging - Saving changes / Managing 
+	git add .
+6. View Status of Staging
+	git status
+7. Commit Changes to local repo
+	git commit -m "msg"
+	
+	Errors encounted	Unkonwn idenity git needs identity to know author and origin of commit.
+				git config --global user.name ""
+				git config --global user.email ""
+		--global for all repo ignore it for local idne.
+8. Rename branch to main git use main as default may be some time master
+	git branch -M main
+		-M moves(renames)
+9. Link local repo to remote in github
+	git remote add origin https://github.com/user/repo.git
+10. Push changes
+	git push -u (default upstream tracks remote changes) <remote name>origin <branh name>main
+
+Then modify files and push updates. 
+
+For Deleting files and folders:
+	git rm -options <name>
+	git commit -m ""
+	git push
