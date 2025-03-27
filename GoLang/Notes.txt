@@ -1,0 +1,26 @@
+Go Language
+	Is an open source programming language for making programmers more productive.
+	Expressive Allows programmers to be expressive in the way of logic and intent by a1llowing to write code containing understandable syntax.
+	Concise upto the exact mark minimalistic syntax no unnecessary keywords,garbage and automatic formatting gofmt.
+	Clean Code uniformity and easy to read. Discourages unnecessary abstraction	
+	Efficient Directly converts to Machine Code Go -> Binaries.
+
+Statically Typed and Compiled Language but fast.
+
+For managing packages and libraries that are from other modules use go.mode (similar purpose of package.json)
+For initializing and creating mod file (use go.mod ) -> go mod init
+go mod tidy  ->install dependencies.
+
+By default if multiple files need to be executed go run will check for package main in program and executes main() fn.
+Packages -> Like java declare package <name>
+go compiler needs an executable prgm to be in package main.
+fmt->Formatting text and printing to console. Like o/p formatting etc.
+Like python no semicolon.
+Main is executed by default.
+
+Why package main is used:
+	Clear Seperation between Executables and Libraries.(user defined names are used for portability).
+	Consistent Entry Point
+	Efficient Compilation
+	Modular and Scalable Design
+	Cross Platform

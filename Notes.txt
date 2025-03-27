@@ -1,2 +1,0 @@
-Git Definition
-Git Commits,Branches,Files
